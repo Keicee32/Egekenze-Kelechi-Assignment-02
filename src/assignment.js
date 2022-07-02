@@ -38,7 +38,6 @@ function countEvenNumbers(arrayOfNumbers) {
   for (let i = 0; i < arrayOfNumbers.length; i++)   { 
     if(arrayOfNumbers[i] % 2 === 0) {
       evenNumbers.push(arrayOfNumbers[i])
-      // console.log(evenNumbers.length)
     }
   }
   return evenNumbers.length;
